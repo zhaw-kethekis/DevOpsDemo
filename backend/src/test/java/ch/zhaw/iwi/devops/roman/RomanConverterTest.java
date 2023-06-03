@@ -44,6 +44,12 @@ public class RomanConverterTest {
         assertThat("Numbers between 1-1000").isEqualTo(romanConverter.convert(1001));
     }
 
+    @Test
+    public void romanConverter7() {
+        RomanConverter romanConverter = new RomanConverter();
+        assertThat("Numbers between 1-1000").isEqualTo(romanConverter.convert(0));
+    }
+
 
 
 }
