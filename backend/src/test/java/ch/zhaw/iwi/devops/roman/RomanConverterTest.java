@@ -18,4 +18,10 @@ public class RomanConverterTest {
         assertThat(romString).isEqualTo(romanConverter.convert(3));
     }
 
+    @Test
+    public void romanConverter3() {
+        RomanConverter romanConverter = new RomanConverter();
+        assertThat("L").isEqualTo(romanConverter.convert(50));
+    }
+
 }
