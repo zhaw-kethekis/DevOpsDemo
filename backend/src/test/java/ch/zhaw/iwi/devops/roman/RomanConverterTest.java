@@ -30,4 +30,12 @@ public class RomanConverterTest {
         assertThat("There is no such number").isEqualTo(romanConverter.convert(500));
     }
 
+    @Test
+    public void romanConverter5() {
+        RomanConverter romanConverter = new RomanConverter();
+        assertThat("VI").isEqualTo(romanConverter.convert(6));
+        assertThat("VII").isEqualTo(romanConverter.convert(7));
+        assertThat("VIII").isEqualTo(romanConverter.convert(8));
+    }
+
 }
