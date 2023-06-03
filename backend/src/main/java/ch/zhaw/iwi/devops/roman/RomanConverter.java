@@ -21,6 +21,8 @@ public class RomanConverter {
             return "V";
         else if (i == 4)
             return "IV";
+        else if (i == 3)
+            return "III";
         else
             return "There is no such number";
     }

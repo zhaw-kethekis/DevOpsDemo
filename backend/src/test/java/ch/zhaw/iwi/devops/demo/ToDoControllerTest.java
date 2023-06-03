@@ -15,4 +15,12 @@ public class ToDoControllerTest {
         assertEquals(1, controller.todo().size());
     }
 
+    @Test
+    public void testTest() {
+        ToDoController controller = new ToDoController();
+        var todo = new ToDo(1, "t", "d");
+        controller.createTodo(1, todo);
+        assertEquals("ToDo app is up and running!", controller.test());
+    }
+
 }

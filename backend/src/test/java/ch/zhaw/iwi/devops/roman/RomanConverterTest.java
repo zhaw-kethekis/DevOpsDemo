@@ -33,9 +33,9 @@ public class RomanConverterTest {
     @Test
     public void romanConverter5() {
         RomanConverter romanConverter = new RomanConverter();
-        assertThat("VI").isEqualTo(romanConverter.convert(6));
-        assertThat("VII").isEqualTo(romanConverter.convert(7));
         assertThat("VIII").isEqualTo(romanConverter.convert(8));
+        assertThat("VII").isEqualTo(romanConverter.convert(7));
+        assertThat("VI").isEqualTo(romanConverter.convert(6));
     }
 
 }

@@ -10,7 +10,7 @@ export class GuiModel {
                     "title": "NotImplemented",
                     "formFieldList": [
                         {
-                            "type": "okButton",
+                            "type": 'okButton',
                             "name": "Ok"
                         }
                     ]
@@ -58,7 +58,7 @@ export class GuiModel {
                     "url": "/todo",
                     "formFieldList": [
                         {
-                            "id":   "title",
+                            "id": "title",
                             "type": "text",
                             "name": { default: "Titel" },
                             "required": true,
@@ -145,12 +145,12 @@ export class GuiModel {
                         },
                         {
                             "type": "newButton",
-                            "name": { default: "Neues ToDo"},
+                            "name": { default: "Neues ToDo" },
                             "icon": "fa-user",
                             "color": "lime",
                             "width": 2,
-                            "form" : {
-                                "form" : "ToDoForm"
+                            "form": {
+                                "form": "ToDoForm"
                             }
                         },
                     ]
