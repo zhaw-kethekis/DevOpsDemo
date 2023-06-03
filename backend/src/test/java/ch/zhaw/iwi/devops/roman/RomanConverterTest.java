@@ -50,6 +50,12 @@ public class RomanConverterTest {
         assertThat("Numbers between 1-1000").isEqualTo(romanConverter.convert(0));
     }
 
+    @Test
+    public void romanConverter8() {
+        RomanConverter romanConverter = new RomanConverter();
+        assertThat("XLVII").isEqualTo(romanConverter.convert(47));
+    }
+
 
 
 }
