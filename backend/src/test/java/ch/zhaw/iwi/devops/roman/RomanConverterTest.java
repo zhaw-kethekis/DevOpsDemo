@@ -11,4 +11,11 @@ public class RomanConverterTest {
         assertThat("III").isEqualTo(romanConverter.convert(3));
     }
 
+    @Test
+    public void romanConverter2() {
+        RomanConverter romanConverter = new RomanConverter();
+        String romString = romanConverter.getCharacter();
+        assertThat(romString).isEqualTo(romanConverter.convert(3));
+    }
+
 }
