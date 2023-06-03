@@ -23,6 +23,8 @@ public class RomanConverter {
             return "IV";
         else if (i == 3)
             return "III";
+        else if(i>1000)
+            return "Numbers between 1-1000";
         else
             return "There is no such number";
     }
