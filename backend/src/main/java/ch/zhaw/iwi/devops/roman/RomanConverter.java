@@ -16,7 +16,7 @@ public class RomanConverter {
         else if (i == 4)
             return "IV";
         else
-            return "";
+            return "There is no such number";
     }
 
     public String getCharacter() {
