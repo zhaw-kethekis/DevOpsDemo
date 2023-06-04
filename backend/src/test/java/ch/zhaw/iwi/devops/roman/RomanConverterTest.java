@@ -27,7 +27,7 @@ public class RomanConverterTest {
     @Test
     public void romanConverter4() {
         RomanConverter romanConverter = new RomanConverter();
-        assertThat("There is no such number").isEqualTo(romanConverter.convert(500));
+        assertThat("D").isEqualTo(romanConverter.convert(500));
     }
 
     @Test
@@ -55,7 +55,6 @@ public class RomanConverterTest {
         RomanConverter romanConverter = new RomanConverter();
         assertThat("XLVII").isEqualTo(romanConverter.convert(47));
     }
-
 
 
 }
