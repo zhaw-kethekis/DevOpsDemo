@@ -4,8 +4,6 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class RomanConverterTest {
-    
-    /*
 
     @Test
     public void romanConverter1() {
@@ -57,7 +55,5 @@ public class RomanConverterTest {
         RomanConverter romanConverter = new RomanConverter();
         assertThat("XLVII").isEqualTo(romanConverter.convert(47));
     }
-
-     */
 
 }
